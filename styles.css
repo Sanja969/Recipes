@@ -1,0 +1,94 @@
+* {
+    color: #fff8dc;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #2A3132;
+    margin:auto;
+   
+}
+
+ul {
+    display: inline;
+    
+    
+}
+li{
+   
+}
+  
+  img {
+    height: auto;
+    width: 500px;
+  }
+
+  .mainTitle
+  {
+    background-color: #763626;
+      
+  }
+  .Instructions
+  {
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .ingredients
+  {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+  }
+  .ingredients.decoration
+  {
+    font-size: 18px;
+    margin-top: 15px;
+    
+  }
+  .links{
+      display: inline;
+      
+      margin-bottom: 100px;
+      background: #336B87;
+      margin-left: 200px;
+      padding:20px 20px 20px 20px;
+      
+      text-align: center;
+      
+  }
+  .bottom{
+    background: #90AFC5;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  .instructionBody{
+    
+    margin-bottom: 100px;
+  }
+  h1{
+      margin: 20px auto 20px auto;
+      padding: 50px auto 50px auto;
+  }
+  .recipesNames{
+    min-width: 220px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    min-height: 40px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+   
+    vertical-align:middle;
+    cursor:pointer;
+    zoom: 1;
+    *display: inline;
+    
+    
+    background: #336B87;
+    text-decoration: none;
+  }
+  .recipeBox
+  {
+    list-style-type: none;
+  }
