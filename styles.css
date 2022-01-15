@@ -6,6 +6,7 @@
     text-align: center;
 }
 
+
   img {
     height: auto;
     width: 500px;
@@ -22,7 +23,7 @@
  .recipeBox{
    text-align: center;
  }
-  .recipesNames{
+  .recipeBox a{
     
     display: block;
     text-transform: uppercase;
@@ -43,14 +44,12 @@
   .instruction
   {
     
-    display: inline-block;
-    top: 1.2em;
-    width: 40%;
+    flex:1;
     background: #cbd7df;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0px 20px;
+    
     border-left: 2px solid #336B87;
-    vertical-align: top;
+    
   }
 
 
@@ -61,9 +60,8 @@
   
   .iii
   {
-   
-    background: #cbd7df;
     margin-bottom: 20px;
+    display:flex;
 
   }
 
@@ -92,13 +90,13 @@
   
   .links{
     
-    display: inline-block;
-    width: 25%;
+    flex:1;
     background-color: #763626;
-    padding:20px 20px 20px 20px;
+    padding:20px;
 }
 .bottom{
   
-  background-color: #763626;
+  
+  display: flex;
 }
   
