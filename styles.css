@@ -70,11 +70,11 @@ li{
       padding: 50px auto 50px auto;
   }
   .recipesNames{
-    min-width: 220px;
+    min-width: 250px;
     margin-bottom: 20px;
     padding-top: 30px;
     min-height: 40px;
-    display: -moz-inline-stack;
+   
     display: inline-block;
     font-size: 10px;
     text-transform: uppercase;
@@ -83,6 +83,7 @@ li{
     cursor:pointer;
     zoom: 1;
     *display: inline;
+    font-size:12px;
     
     
     background: #336B87;
@@ -90,5 +91,10 @@ li{
   }
   .recipeBox
   {
+    
     list-style-type: none;
+  }
+  h3{
+      padding-top: 10px;
+      padding-bottom: 20px;
   }
