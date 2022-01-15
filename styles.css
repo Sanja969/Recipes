@@ -1,100 +1,104 @@
 * {
     color: #fff8dc;
-    text-align: center;
+    
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #2A3132;
-    margin:auto;
-   
+    text-align: center;
 }
 
-ul {
-    display: inline;
-    
-    
-}
-li{
-   
-}
-  
   img {
     height: auto;
     width: 500px;
+    
   }
 
   .mainTitle
   {
     background-color: #763626;
+    padding-bottom: 20px;
+    padding-top: 20px;
       
   }
-  .Instructions
-  {
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .ingredients
-  {
-    font-weight: 700;
-    font-size: 22px;
-    margin-bottom: 10px;
-    
-  }
-  .ingredients.decoration
-  {
-    font-size: 18px;
-    margin-top: 15px;
-    
-  }
-  .links{
-      display: inline;
-      
-      margin-bottom: 100px;
-      background: #336B87;
-      margin-left: 200px;
-      padding:20px 20px 20px 20px;
-      
-      text-align: center;
-      
-  }
-  .bottom{
-    background: #90AFC5;
-    padding-bottom: 25px;
-    padding-top: 25px;
-  }
-  .instructionBody{
-    
-    margin-bottom: 100px;
-  }
-  h1{
-      margin: 20px auto 20px auto;
-      padding: 50px auto 50px auto;
-  }
+ .recipeBox{
+   text-align: center;
+ }
   .recipesNames{
-    min-width: 250px;
-    margin-bottom: 20px;
-    padding-top: 30px;
-    min-height: 40px;
-   
-    display: inline-block;
-    font-size: 10px;
+    
+    display: block;
     text-transform: uppercase;
-   
-    vertical-align:middle;
     cursor:pointer;
-    zoom: 1;
-    *display: inline;
-    font-size:12px;
-    
-    
-    background: #336B87;
+    font-size:15px;
     text-decoration: none;
+    background-color: rgb(12, 14, 16);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+
   }
-  .recipeBox
+ 
+  
+  .ingredients,
+  .instruction
   {
     
-    list-style-type: none;
+    display: inline-block;
+    top: 1.2em;
+    width: 40%;
+    background: #cbd7df;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 2px solid #336B87;
+    vertical-align: top;
   }
-  h3{
-      padding-top: 10px;
-      padding-bottom: 20px;
+
+
+  li{
+    text-align: left;
+    padding-top: 5px;
   }
+  
+  .iii
+  {
+   
+    background: #cbd7df;
+    margin-bottom: 20px;
+
+  }
+
+  h3,
+  h4{
+    text-align: left;
+    margin-bottom: 0.5px;
+     
+  }
+  h5{
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  p{
+    text-align: left;
+    
+  }
+
+  p,h3,h4,ul,li
+  {
+    background: #cbd7df;
+    color: #2A3132;
+  }
+
+
+  
+  .links{
+    
+    display: inline-block;
+    width: 25%;
+    background-color: #763626;
+    padding:20px 20px 20px 20px;
+}
+.bottom{
+  
+  background-color: #763626;
+}
+  
